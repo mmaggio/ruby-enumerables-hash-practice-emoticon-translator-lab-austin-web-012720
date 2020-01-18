@@ -34,6 +34,6 @@ def get_english_meaning(library, japanese_emoticon)
    answer = emoticons[:get_meaning][japanese_emoticon]
    answer
   else
-   puts "Sorry, that emoticon was not found"
+   p "Sorry, that emoticon was not found"
   end
 end
