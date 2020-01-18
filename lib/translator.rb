@@ -22,7 +22,7 @@ def get_japanese_emoticon(library, western_emoticon)
    else
      answer = emoticons[:get_emoticon][western_emoticon]
      answer
-     puts "Sorry, that emoticon was not found"
+     
    end
 end
 
