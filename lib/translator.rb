@@ -17,10 +17,11 @@ def get_japanese_emoticon(library, western_emoticon)
  # input is a western emoticon
  # output is a japanese emoticon
    emoticons = load_library(library)
-   if emoticons[:get_emoticon][western_emoticon]
+   if !emoticons[:get_emoticon][western_emoticon]
+     puts "Sorry, that emoticon was not found"
+   else
      answer = emoticons[:get_emoticon][western_emoticon]
      answer
-   else
      puts "Sorry, that emoticon was not found"
    end
 end
